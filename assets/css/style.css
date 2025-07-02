@@ -1,0 +1,548 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-family: "DINOT", sans-serif;
+}
+:root {
+  --logo-top-text: #aedff3;
+  --white-color: #ffffff;
+  --para-text: #c1e6f4;
+  --dark-blue: #262160;
+  --lable-text: #0154a3;
+  --submit-btn-bg: #299bd7;
+  --gray-bg: #aebebe;
+  --gray-text: #536570;
+}
+
+/* ----main--start-- */
+.main {
+  width: 100%;
+  min-height: 100dvh;
+  margin: auto;
+  overflow: hidden;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 390px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+/* ----main--end-- */
+
+/* --visit_logo_info start */
+.visit_logo_info {
+  text-align: center;
+  padding-top: 30px;
+}
+.visit_logo_info h2 {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+  color: var(--logo-top-text);
+  margin-bottom: 0;
+}
+.visit_logo_info h3 {
+  color: var(--white-color);
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.visit_logo_info p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--para-text);
+}
+@media (max-width: 767px) {
+  .visit_logo_info h2,
+  .visit_logo_info h3 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .visit_logo_info p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 640px) {
+  .visit_logo_info h2,
+  .visit_logo_info h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+/* --visit_logo_info end */
+
+/* --home--start */
+.home {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_info {
+  text-align: center;
+}
+.home_nav h2 {
+  font-size: 50px;
+  line-height: 54px;
+  font-weight: 500;
+  color: var(--logo-top-text);
+  margin-bottom: 0;
+}
+.home_nav h3 {
+  color: var(--white-color);
+  font-size: 50px;
+  line-height: 54px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.home_nav p {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  color: var(--para-text);
+}
+.home_nav .logo1 {
+  margin: 30px 0;
+  width: 100%;
+  max-width: 160px;
+}
+.home_nav .logo2 {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.home_nav .logo2 img {
+  width: 100%;
+  max-width: 160px;
+}
+.home_nav .logo2 h6 {
+  font-size: 9px;
+  line-height: 12px;
+  color: var(--white-color);
+  margin-bottom: 0;
+}
+.visit-logo1 {
+  margin: 30px 0;
+  width: 100%;
+  max-width: 120px;
+}
+.visit-logo2 img {
+  width: 100%;
+  max-width: 120px;
+}
+.visit-logo2 h6 {
+  font-size: 9px;
+  line-height: 12px;
+  color: var(--white-color);
+  margin-bottom: 0;
+}
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 50px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #289cd7;
+  background-color: white;
+  border-radius: 9999px;
+  border: none;
+  box-shadow: 6px 4px 14px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 768px) {
+    .visit-logo1 ,.visit-logo2 img{
+  max-width: 90px;
+}
+.visit-logo2 h6 {
+  font-size: 7px;
+}
+}
+@media (max-width: 640px) {
+  .home_nav h2,
+  .home_nav h3 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .home_nav p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .home-button {
+    padding: 6px 34px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .home_nav .logo1,
+  .home_nav .logo2 img {
+    max-width: 109px;
+  }
+  .visit-logo1{
+    margin: 10px 0;
+  }
+}
+@media (max-width: 490px) {
+  .home_nav h2,
+  .home_nav h3 {
+    font-size: 31px;
+    line-height: 36px;
+  }
+  .home_nav .logo2 {
+    margin-bottom: 40px;
+  }
+      .visit-logo1, .visit-logo2 img {
+        max-width: 77px;
+    }
+}
+@media (max-width: 390px) {
+  .home-button {
+    padding: 6px 28px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .home_nav h2,
+  .home_nav h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .home_nav p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .home_nav .logo1,
+  .home_nav .logo2 img {
+    max-width: 96px;
+  }
+  .home_nav .logo2 h6 {
+    font-size: 7px;
+  }
+}
+/* --home--end */
+
+/* --sign_up_page--start */
+.sign_up_checkbox {
+  background-color: var(--white-color);
+  padding: 20px 50px 50px 50px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+.sign_up_checkbox h3 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+.sign_up_checkbox li input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.sign_up_checkbox li input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 9px;
+  width: 8px;
+  height: 15px;
+  border: solid var(--dark-blue);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.sign_up_checkbox li label {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  color: var(--lable-text);
+  cursor: pointer;
+}
+.sign_up_checkbox li label p {
+  margin-bottom: 0;
+}
+.sign_up_checkbox li label span {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.sign_up_checkbox li:last-child label {
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .sign_up_checkbox h3 {
+    width: 100%;
+    max-width: 287px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .sign_up_checkbox li label{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 490px) {
+  .sign_up_checkbox h3 {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 220px;
+  }
+  .sign_up_checkbox li label span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .sign_up_checkbox {
+    padding: 20px 20px 30px 30px;
+  }
+  .sign_up_checkbox li input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+  }
+  .sign_up_checkbox li input[type="checkbox"]:checked::after {
+    top: 4px;
+    left: 9px;
+    width: 5px;
+    height: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .sign_up_checkbox h3 {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 197px;
+  }
+}
+/* --sign_up_page--end */
+
+/* ---visit_form--start */
+.visit_form {
+  background-color: var(--white-color);
+  padding: 24px 30px;
+  border-radius: 14px;
+}
+.visit_form .form-label {
+  color: var(--dark-blue);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.visit_form .form-control {
+  border-radius: 0;
+  border-color: var(--dark-blue);
+  color: var(--lable-text);
+}
+.form-control:focus,
+.form-control:hover {
+  outline: none;
+  box-shadow: none;
+}
+.submit-btn-grp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.submit-btn-grp a {
+  padding: 10px 50px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.submit-btn {
+  background-color: var(--submit-btn-bg);
+  color: var(--white-color);
+  padding: 10px 50px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.back-btn {
+  background-color: var(--gray-bg);
+  color: var(--gray-text);
+}
+.submit-btn-grp a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+.visit_title {
+  color: var(--white-color);
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+@media (max-width: 640px) {
+  .visit_title {
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+  .submit-btn-grp a,
+  .submit-btn {
+    padding: 6px 34px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .sign_up_checkbox {
+    gap: 20px;
+  }
+}
+@media (max-width: 430px) {
+  .visit_title {
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 30px;
+  }
+  .visit_form .form-label,
+  .visit_form .form-control {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .submit-btn-grp {
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 390px) {
+  .submit-btn-grp {
+    gap: 10px;
+  }
+  .submit-btn-grp a {
+    padding: 6px 28px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .visit_logo_info h2,
+  .visit_logo_info h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .visit_form {
+    padding: 20px 26px;
+  }
+}
+/* ---visit_form--end */
+
+/* --confirmation_page--start */
+.confim_info {
+  background-color: var(--white-color);
+  padding: 100px 30px;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: 60px;
+}
+.confim_info h3 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+}
+.confim_info h2:nth-of-type(1) {
+  color: var(--lable-text);
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.confim_info h2:nth-of-type(2) {
+  color: var(--lable-text);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+.confim_info p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--lable-text);
+}
+@media (max-width: 992px) {
+  .confim_info {
+    padding: 60px 30px;
+  }
+}
+@media (max-width: 767px) {
+  .confim_info h3 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .confim_info h2:nth-of-type(1),
+  .confim_info h2:nth-of-type(2) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .confim_info p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 490px) {
+  .confim_info {
+    padding: 50px 20px;
+  }
+  .confim_info h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .confim_info h2:nth-of-type(1),
+  .confim_info h2:nth-of-type(2) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+/* --confirmation_page--end */
