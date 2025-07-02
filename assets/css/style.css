@@ -46,7 +46,7 @@ section {
   max-width: 767px;
   margin: auto;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main {
     background-image: url("../images/bg.jpg");
   }
