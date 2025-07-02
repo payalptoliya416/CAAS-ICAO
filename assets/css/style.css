@@ -39,7 +39,9 @@ body {
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding-bottom: 60px;
+}
+section{
+    margin-bottom: 50px;
 }
 @media (max-width: 576px) {
   .container {
