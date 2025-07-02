@@ -25,11 +25,11 @@
                 </div>
                  <div class="sign_up_checkbox">
                           <h3>Which tour would you like to attend?</h3>
-                         <ul>
+                      <ul>
                             <li>
                                 <a href="index.html">
                                     <label>
-                                    <div><input type="checkbox" name="visit1" /></div>
+                                  <div><input type="checkbox" name="visit" value="visit-garden-2.html" onclick="handleCheckboxClick(this)" /></div>
                                     <div>
                                         <span>Visit to Gardens by the Bay </span>
                                          <p>(waiting list)</p>
@@ -40,7 +40,7 @@
                             <li>
                                 <a href="#">
                                     <label>
-                                    <div><input type="checkbox" name="visit2" /></div>
+                                    <div><input type="checkbox" name="visit" value="visit-airbus-2.html" onclick="handleCheckboxClick(this)" /></div>
                                      <div>
                                      <span>Visit to Airbus Asia Training Centre</span>
                                          <p>(waiting list)</p>
@@ -51,7 +51,7 @@
                             <li>
                                 <a href="#">
                                     <label>
-                                    <div><input type="checkbox" name="visit3" /></div>
+                                    <div><input type="checkbox" name="visit" value="visit-boeing-2.html" onclick="handleCheckboxClick(this)" /></div>
                                      <div>
                                         <span>Visit to Boeing Campus</span>
                                          <p>(waiting list)</p>
@@ -62,7 +62,7 @@
                             <li>
                                 <a href="#">
                                     <label>
-                                    <div><input type="checkbox" name="visit4" /></div>
+                                    <div><input type="checkbox" name="visit" value="visit-ITE-2.html" onclick="handleCheckboxClick(this)" /></div>
                                      <div>
                                        <span>Visit to ITE College East</span>
                                          <p>(waiting list)</p>
@@ -71,7 +71,9 @@
                                 </a>
                             </li>
                             </ul>
-                              <div class="my-3"><a href="#" class="submit-btn">Submit</a></div>
+                             <div class="my-3">
+                        <a href="#" class="submit-btn" onclick="handleSubmit()">Submit</a>
+                    </div>
                  </div>
               </div>
         </section>

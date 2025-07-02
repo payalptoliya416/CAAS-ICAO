@@ -145,7 +145,7 @@ section{
   max-width: 160px;
 }
 .home_nav .logo2 h6 {
-  font-size: 9px;
+  font-size: 8px;
   line-height: 12px;
   color: var(--white-color);
   margin-bottom: 0;
@@ -160,7 +160,7 @@ section{
   max-width: 120px;
 }
 .visit-logo2 h6 {
-  font-size: 9px;
+  font-size: 8px;
   line-height: 12px;
   color: var(--white-color);
   margin-bottom: 0;
@@ -190,7 +190,7 @@ section{
   max-width: 90px;
 }
 .visit-logo2 h6 {
-  font-size: 7px;
+  font-size: 6px;
 }
 }
 @media (max-width: 640px) {
@@ -249,7 +249,7 @@ section{
     max-width: 96px;
   }
   .home_nav .logo2 h6 {
-    font-size: 7px;
+    font-size: 6px;
   }
 }
 /* --home--end */
