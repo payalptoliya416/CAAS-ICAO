@@ -43,7 +43,7 @@ body {
 section {
   margin-bottom: 50px;
   width: 100%;
-  max-width:767px;
+  max-width: 767px;
   margin: auto;
 }
 @media (max-width: 767px) {
