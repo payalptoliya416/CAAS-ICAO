@@ -56,7 +56,7 @@ section {
 }
 @media (max-width: 390px) {
   .container {
-    padding: 0 30px;
+    padding: 0 28px;
   }
 }
 /* ----main--end-- */
@@ -567,12 +567,12 @@ font-size: 28px;
   }
   .confim_info p {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 18px;
   }
 }
 @media (max-width: 490px) {
   .confim_info {
-    padding: 50px 20px;
+    padding: 50px 16px;
   }
   .confim_info h3 {
     font-size: 20px;
@@ -582,6 +582,7 @@ font-size: 28px;
   .confim_info h2:nth-of-type(2) {
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 20px;
   }
 }
 /* --confirmation_page--end */
