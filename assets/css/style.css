@@ -283,7 +283,7 @@ section {
   margin: 8px auto;
 }
 .sign_up_checkbox .para {
-  color: var(--dark-blue);
+ color: var(--lable-text);
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -346,7 +346,6 @@ section {
     line-height: 34px;
   }
   .sign_up_checkbox .para {
-    color: var(--dark-blue);
     font-size: 14px;
     line-height: 16px;
   }
@@ -461,6 +460,13 @@ section {
   margin-bottom: 20px;
   padding-top: 40px;
 }
+.italic-text{
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  font-style: italic;
+  color: var(--dark-blue);
+}
 @media (max-width: 640px) {
   .visit_title {
     font-size: 22px;
@@ -475,6 +481,9 @@ section {
   }
   .sign_up_checkbox {
     gap: 20px;
+  }
+  .italic-text{
+  font-size: 12px;
   }
 }
 @media (max-width: 430px) {
