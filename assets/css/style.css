@@ -559,7 +559,7 @@ font-size: 28px;
 .confim_info p {
   font-size: 16px;
   line-height: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--lable-text);
 }
 @media (max-width: 992px) {
